@@ -435,3 +435,10 @@ form > button {
     right: -320px;
   }
 }
+.stupid {
+  text-shadow: 2px 2px black!important;
+  padding-left: 10px;
+}
+.stupid:hover {
+  color: red!important;
+}
