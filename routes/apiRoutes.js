@@ -19,7 +19,7 @@ router.get("/api/workouts", function (req, res) {
             res.json(error)
         });
 });
-router.post("/api/workouts/range", function (req, res) {
+router.post("/api/workouts", function (req, res) {
     db.Workout.create({})
         .then(function (workouts) {
             res.json(workouts);
